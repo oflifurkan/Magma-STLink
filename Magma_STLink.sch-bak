@@ -193,9 +193,9 @@ Wire Wire Line
 Wire Wire Line
 	5200 4450 5400 4450
 Text Label 5400 4350 0    50   ~ 0
-USB_DM
+USB_N
 Text Label 5400 4450 0    50   ~ 0
-USB_DP
+USB_P
 NoConn ~ 5200 4750
 $Comp
 L Connector:USB_A J5
@@ -203,7 +203,7 @@ U 1 1 614A61FE
 P 8650 1450
 F 0 "J5" H 8707 1917 50  0000 C CNN
 F 1 "USB_A" H 8707 1826 50  0000 C CNN
-F 2 "Connector_USB:USB_A_CONNFLY_DS1095-WNR0" H 8800 1400 50  0001 C CNN
+F 2 "Connector_USB:USB_A_CNCTech_1001-011-01101_Horizontal" H 8800 1400 50  0001 C CNN
 F 3 "https://cdn.ozdisan.com/ETicaret_Dosya/348007_2646947.pdf" H 8800 1400 50  0001 C CNN
 F 4 "https://www.ozdisan.com/konnektor-kablo-baglanti-elemanlari/usb-dvi-hdmi-konnektorler/usb-konnektorler/DS1095-WNR0" H 8650 1450 50  0001 C CNN "Manufacturer Link"
 	1    8650 1450
@@ -540,31 +540,31 @@ $EndComp
 $Comp
 L Device:R_Small R9
 U 1 1 614F9BCC
-P 9200 1450
-F 0 "R9" V 9100 1350 50  0000 C CNN
-F 1 "75R" V 9100 1500 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" H 9200 1450 50  0001 C CNN
-F 3 "~" H 9200 1450 50  0001 C CNN
-F 4 "https://www.ozdisan.com/passive-components/resistors/smt-smd-and-chip-resistors/0805S8F750JT5E" V 9200 1450 50  0001 C CNN "Manufacturer Link"
-	1    9200 1450
+P 9550 1450
+F 0 "R9" V 9450 1350 50  0000 C CNN
+F 1 "75R" V 9450 1500 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" H 9550 1450 50  0001 C CNN
+F 3 "~" H 9550 1450 50  0001 C CNN
+F 4 "https://www.ozdisan.com/passive-components/resistors/smt-smd-and-chip-resistors/0805S8F750JT5E" V 9550 1450 50  0001 C CNN "Manufacturer Link"
+	1    9550 1450
 	0    1    1    0   
 $EndComp
 $Comp
 L Device:R_Small R10
 U 1 1 614F9F4A
-P 9200 1550
-F 0 "R10" V 9350 1450 50  0000 C CNN
-F 1 "75R" V 9350 1600 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" H 9200 1550 50  0001 C CNN
-F 3 "~" H 9200 1550 50  0001 C CNN
-F 4 "https://www.ozdisan.com/passive-components/resistors/smt-smd-and-chip-resistors/0805S8F750JT5E" V 9200 1550 50  0001 C CNN "Manufacturer Link"
-	1    9200 1550
+P 9550 1550
+F 0 "R10" V 9700 1450 50  0000 C CNN
+F 1 "75R" V 9700 1600 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" H 9550 1550 50  0001 C CNN
+F 3 "~" H 9550 1550 50  0001 C CNN
+F 4 "https://www.ozdisan.com/passive-components/resistors/smt-smd-and-chip-resistors/0805S8F750JT5E" V 9550 1550 50  0001 C CNN "Manufacturer Link"
+	1    9550 1550
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	8950 1450 9100 1450
+	8950 1450 9150 1450
 Wire Wire Line
-	9100 1550 8950 1550
+	9450 1550 9000 1550
 $Comp
 L Device:C_Small C7
 U 1 1 6150A6B5
@@ -582,12 +582,10 @@ Wire Wire Line
 NoConn ~ 5200 3350
 NoConn ~ 5200 3450
 NoConn ~ 5200 3550
-Wire Wire Line
-	9300 1550 9500 1550
 Text Label 10750 1550 0    50   ~ 0
-USB_DM
+USB_N
 Text Label 10750 1450 0    50   ~ 0
-USB_DP
+USB_P
 $Comp
 L Device:R_Small R4
 U 1 1 6152B7C6
@@ -816,7 +814,7 @@ Wire Wire Line
 Text Label 6600 4950 0    50   ~ 0
 NRST
 Wire Wire Line
-	6600 4950 7000 4950
+	6600 4950 6900 4950
 $Comp
 L power:GND #PWR0119
 U 1 1 614DFCBB
@@ -841,8 +839,6 @@ F 3 "" H 6650 5250 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	6650 5250 7000 5250
-Wire Wire Line
-	6650 5050 6900 5050
 $Comp
 L power:+3V3 #PWR0121
 U 1 1 614F6F16
@@ -949,24 +945,12 @@ $EndComp
 Wire Wire Line
 	9650 2400 9400 2400
 Wire Wire Line
-	9650 2800 9500 2800
-Wire Wire Line
-	9500 2800 9500 1550
-Connection ~ 9500 1550
-Wire Wire Line
-	9500 1550 10750 1550
-Wire Wire Line
 	9400 1150 9400 1250
 Wire Wire Line
 	8950 1250 9400 1250
 Connection ~ 9400 1250
 Wire Wire Line
 	9400 1250 9400 2400
-Connection ~ 10650 1450
-Wire Wire Line
-	10650 1450 10750 1450
-Wire Wire Line
-	10650 1450 10650 2400
 $Comp
 L Device:D_TVS_ALT D3
 U 1 1 615CDFFE
@@ -1027,32 +1011,6 @@ Wire Wire Line
 Connection ~ 8300 6200
 Wire Wire Line
 	8300 6200 8550 6200
-$Comp
-L power:VBUS #PWR0126
-U 1 1 6164474E
-P 10850 3050
-F 0 "#PWR0126" H 10850 2900 50  0001 C CNN
-F 1 "VBUS" H 10865 3223 50  0000 C CNN
-F 2 "" H 10850 3050 50  0001 C CNN
-F 3 "" H 10850 3050 50  0001 C CNN
-	1    10850 3050
-	-1   0    0    1   
-$EndComp
-$Comp
-L Device:R_Small R14
-U 1 1 6164B2BE
-P 10850 2900
-F 0 "R14" H 10909 2946 50  0000 L CNN
-F 1 "0R" H 10909 2855 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" H 10850 2900 50  0001 C CNN
-F 3 "~" H 10850 2900 50  0001 C CNN
-	1    10850 2900
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	10850 2800 10650 2800
-Wire Wire Line
-	10850 3000 10850 3050
 $Comp
 L Connector_Generic:Conn_02x05_Odd_Even STLINK_CONN1
 U 1 1 6166EE07
@@ -1240,11 +1198,6 @@ F 4 "https://www.ozdisan.com/power-semiconductors/diodes-diode-modules-and-recti
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	6900 5050 6900 5700
-Connection ~ 6900 5050
-Wire Wire Line
-	6900 5050 7000 5050
-Wire Wire Line
 	6900 6000 6900 6200
 Wire Wire Line
 	6900 6200 7700 6200
@@ -1252,10 +1205,54 @@ Connection ~ 7700 6200
 Wire Wire Line
 	10150 1050 10150 1150
 Wire Wire Line
-	9300 1450 10150 1450
+	9650 1450 10150 1450
 Wire Wire Line
 	10150 1350 10150 1450
 Connection ~ 10150 1450
+NoConn ~ 3900 4350
+NoConn ~ 3900 4250
+NoConn ~ 3900 4150
+NoConn ~ 3900 4050
+NoConn ~ 3900 3950
+NoConn ~ 3900 3850
+NoConn ~ 3900 3750
+NoConn ~ 3900 3650
+NoConn ~ 3900 3550
+NoConn ~ 3900 3050
+NoConn ~ 3900 2950
+NoConn ~ 5200 3650
+NoConn ~ 5200 3750
+NoConn ~ 5200 3850
+NoConn ~ 5200 3950
+NoConn ~ 5200 4050
+NoConn ~ 3900 4750
+NoConn ~ 3900 2850
 Wire Wire Line
-	10150 1450 10650 1450
+	6650 5050 7000 5050
+Wire Wire Line
+	6900 5700 6900 4950
+Connection ~ 6900 4950
+Wire Wire Line
+	6900 4950 7000 4950
+Wire Wire Line
+	9650 1550 10750 1550
+Wire Wire Line
+	9000 2800 9000 1550
+Wire Wire Line
+	9000 2800 9650 2800
+Connection ~ 9000 1550
+Wire Wire Line
+	9000 1550 8950 1550
+Wire Wire Line
+	10150 1450 10750 1450
+Wire Wire Line
+	10650 2400 10650 2100
+Wire Wire Line
+	10650 2100 9150 2100
+Wire Wire Line
+	9150 2100 9150 1450
+Connection ~ 9150 1450
+Wire Wire Line
+	9150 1450 9450 1450
+NoConn ~ 10650 2800
 $EndSCHEMATC
