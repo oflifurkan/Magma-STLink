@@ -205,7 +205,7 @@ F 0 "J5" H 8707 1917 50  0000 C CNN
 F 1 "USB_A" H 8707 1826 50  0000 C CNN
 F 2 "Connector_USB:USB_A_CNCTech_1001-011-01101_Horizontal" H 8800 1400 50  0001 C CNN
 F 3 "https://cdn.ozdisan.com/ETicaret_Dosya/348007_2646947.pdf" H 8800 1400 50  0001 C CNN
-F 4 "https://www.ozdisan.com/konnektor-kablo-baglanti-elemanlari/usb-dvi-hdmi-konnektorler/usb-konnektorler/DS1095-WNR0" H 8650 1450 50  0001 C CNN "Manufacturer Link"
+F 4 "https://www.ozdisan.com/connectors-and-interconnects/usb-dvi-hdmi-connectors/usb-connectors/DS1098-WN0" H 8650 1450 50  0001 C CNN "Manufacturer Link"
 	1    8650 1450
 	1    0    0    -1  
 $EndComp
@@ -609,16 +609,14 @@ Wire Wire Line
 $Comp
 L power:GND #PWR0113
 U 1 1 61540056
-P 3150 2400
-F 0 "#PWR0113" H 3150 2150 50  0001 C CNN
-F 1 "GND" H 3155 2227 50  0000 C CNN
-F 2 "" H 3150 2400 50  0001 C CNN
-F 3 "" H 3150 2400 50  0001 C CNN
-	1    3150 2400
+P 3150 2700
+F 0 "#PWR0113" H 3150 2450 50  0001 C CNN
+F 1 "GND" H 3155 2527 50  0000 C CNN
+F 2 "" H 3150 2700 50  0001 C CNN
+F 3 "" H 3150 2700 50  0001 C CNN
+	1    3150 2700
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	3150 2400 3150 2350
 Wire Wire Line
 	3900 2350 3650 2350
 Text Label 3650 2350 0    50   ~ 0
@@ -733,7 +731,7 @@ L Device:LED D5
 U 1 1 6149C6AC
 P 10050 3950
 F 0 "D5" H 10043 3695 50  0000 C CNN
-F 1 "LED" H 10043 3786 50  0000 C CNN
+F 1 "RED LED" H 10043 3786 50  0000 C CNN
 F 2 "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 10050 3950 50  0001 C CNN
 F 3 "~" H 10050 3950 50  0001 C CNN
 	1    10050 3950
@@ -744,7 +742,7 @@ L Device:LED D6
 U 1 1 6149CA78
 P 10050 4300
 F 0 "D6" H 10043 4517 50  0000 C CNN
-F 1 "LED" H 10043 4426 50  0000 C CNN
+F 1 "BLUE RED" H 10043 4426 50  0000 C CNN
 F 2 "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 10050 4300 50  0001 C CNN
 F 3 "~" H 10050 4300 50  0001 C CNN
 	1    10050 4300
@@ -1255,4 +1253,19 @@ Connection ~ 9150 1450
 Wire Wire Line
 	9150 1450 9450 1450
 NoConn ~ 10650 2800
+$Comp
+L Device:R_Small R?
+U 1 1 61697A55
+P 3150 2550
+F 0 "R?" V 2954 2550 50  0000 C CNN
+F 1 "100K" V 3045 2550 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" H 3150 2550 50  0001 C CNN
+F 3 "" H 3150 2550 50  0001 C CNN
+	1    3150 2550
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	3150 2700 3150 2650
+Wire Wire Line
+	3150 2350 3150 2450
 $EndSCHEMATC
