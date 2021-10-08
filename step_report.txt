@@ -1,0 +1,8 @@
+Warning: 14:33:08: [3D File Resolver] No such path; ensure the environment var is defined
+Warning: /app/extensions/Library/Packages3D/share/kicad/modules/packages3d//Connector_USB.3dshapes/USB_A_CNCTech_1001-011-01101_Horizontal.wrl
+Warning: 14:33:08: /run/build/kicad/utils/kicad2step/pcb/oce_utils.cpp: AddComponent: 588
+Warning:   * no model defined for component 'J5'
+Warning: 14:33:08: /run/build/kicad/utils/kicad2step/pcb/oce_utils.cpp: AddComponent: 588
+Warning:   * no model defined for component 'Y1'
+Warning: 14:33:09: /run/build/kicad/utils/kicad2step/pcb/oce_utils.cpp: AddComponent: 588
+Warning:   * no model defined for component 'F1'
