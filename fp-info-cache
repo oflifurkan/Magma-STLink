@@ -1,4 +1,4 @@
-757880459633094
+761145784572620
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -6124,6 +6124,34 @@ capacitor tantalum
 0
 2
 2
+Component Documents
+MagmaLogo
+
+
+0
+0
+0
+Component Documents
+MagmaLogoDahaKucuk
+
+
+0
+0
+0
+Component Documents
+MagmaLogo_Kucuk
+
+
+0
+0
+0
+Component Documents
+STLogo
+
+
+0
+0
+0
 Connector
 Banana_Jack_1Pin
 Single banana socket, footprint - 6mm drill
@@ -50714,6 +50742,13 @@ One digit LED 7 segment SA39-11 SC39-11 SA39-12 SC39-12
 0
 10
 10
+ESDA6V1BC6
+SOT95P280X145-6N
+
+
+0
+6
+6
 Ferrite_THT
 LairdTech_28C0236-0JW-10
 Ferrite, vertical, LairdTech 28C0236-0JW-10, https://assets.lairdtech.com/home/brandworld/files/28C0236-0JW-10.pdf, JW Miller core https://www.bourns.com/products/magnetic-products/j.w.-miller-through-hole-ferrite-beads-emi-filters
@@ -58750,6 +58785,13 @@ net tie
 0
 4
 4
+Ofli-General
+ytuaesk.com
+
+
+0
+535
+0
 OptoDevice
 ADNS-9800
 Laser Gaming Sensor ADNS-9800
@@ -73478,13 +73520,6 @@ Potentiometer vertical Vishay T73YP
 0
 3
 3
-RDM6300
-RDM6300
-
-
-0
-10
-10
 RF
 Skyworks_SKY13575_639LF
 http://www.skyworksinc.com/uploads/documents/SKY13575_639LF_203270D.pdf
@@ -82263,13 +82298,6 @@ transformer flyback
 0
 10
 10
-USB Type Micro B Vertical
-MOLEX_105133-0011
-Conn Micro USB Type B RCP 5 POS 0.65mm Solder ST SMD 5 Terminal 1 Port Embossed T/R
-
-0
-8
-8
 Valve
 Valve_ECC-83-1
 Valve ECC-83-1 round pins
@@ -86288,17 +86316,3 @@ Zigbee_Module_MRF24J40MD
 0
 12
 12
-magma_rc522_rdm6300
-RC522
-
-
-0
-8
-8
-magma_rc522_rdm6300
-USB_CONNFLY_DS1095_TypeA_Vertical
-
-
-0
-6
-5
