@@ -1,3 +1,5 @@
 (sym_lib_table
-  (lib (name ESDA6V1BC6)(type Legacy)(uri "${KIPRJMOD}/Component Documents/ESDA6V1BC6/ESDA6V1BC6.lib")(options "")(descr ""))
+  (version 7)
+  (lib (name "ESDA6V1BC6")(type "Legacy")(uri "${KIPRJMOD}/Component Documents/ESDA6V1BC6/ESDA6V1BC6.lib")(options "")(descr ""))
+  (lib (name "Magma_STLink-rescue")(type "KiCad")(uri "${KIPRJMOD}/Magma_STLink-rescue.kicad_sym")(options "")(descr ""))
 )
